@@ -388,7 +388,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 
-# WiX Specific Ignores
+#  Specific Ignores
 
 # Ignore global.json and Directory.Package.props since they are generated
 global.json
@@ -406,5 +406,5 @@ src/test/burn/TestData/Manual/BundleB/PackagePayloads
 !src/Directory.Build.rsp
 
 # Allow the projects that end in ".Cab"
-!src/dtf/test/WixToolset.Dtf.Compression.Cab
-!src/dtf/test/WixToolsetTests.Dtf.Compression.Cab
+!src/dtf/test/Toolset.Dtf.Compression.Cab
+!src/dtf/test/ToolsetTests.Dtf.Compression.Cab
